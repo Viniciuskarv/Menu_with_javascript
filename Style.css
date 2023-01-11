@@ -10,7 +10,6 @@ body{
     border-radius: 20px;
     height: 50%;
     width: 400px;
-    text-align: center;
 }
 .buttonStyle{
     border-radius: 30px;
@@ -19,4 +18,7 @@ body{
     color: rgb(213, 192, 240);
     width: 80px;
     height: 30px;
+}
+.buttonStyle:hover{
+    background-color: rgb(38, 76, 245);
 }
