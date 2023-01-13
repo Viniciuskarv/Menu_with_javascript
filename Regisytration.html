@@ -16,19 +16,28 @@
             <button class="buttonStyle" id="idRegistration">Registration</button>
         </div>
         <div class="containerRegistration">
-            <h3>Registration</h3>
-            <hr>
+            <h3>Customer registration</h3>
             <div class="containerRegistrationInfo">
                 <input type="text" class="campoInfo" id="TextName" placeholder="Name">
-                <input type="text" class="campoInfo" id="TextLastname" placeholder="last name">
-                <input type="nuber" class="campoInfo" id="TextAge" placeholder="Age">
                 <input type="email" class="campoInfo" id="TextEmail" placeholder="E-mail">
                 <br>
-                <input type="button" value="Login" class="buttonStyle" id="ButtonLogin">
+                <input type="button" value="Register" class="buttonStyle" id="ButtonLogin">
             </div>
-
-
+            
+            <table border="1" class="table">
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">E-mail</th>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>CArlor@gmail.com</td>
+                    <td><button class="buttonStyle" id="BtnDelet">Escluir</button></td>
+                </tr>
+            </table>            
         </div>
+
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
