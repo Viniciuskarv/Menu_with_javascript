@@ -4,38 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="./Style.css">
 </head>
 <body>
     <div id="Container">
         <div class="CampoMenu">
-            <Button class="buttonStyle" id="idMenu">Menu</Button>       
-            <button class="buttonStyle" id="idHome">home</button>
-            <button class="buttonStyle" id="idAbout">About</button>
-            <button class="buttonStyle" id="idRegistration">Registration</button>
+            <Button class="buttonStyle" id="btnMenu">Menu</Button>       
+            <button class="buttonStyle" id="btnHome">Home</button>
+            <button class="buttonStyle" id="btnExercises">Exercises</button>
+            <button class="buttonStyle" id="btnRegistration">Registration</button>
+
         </div>
-        <div class="containerRegistration">
-            <h3>Customer registration</h3>
-            <div class="containerRegistrationInfo">
-                <input type="text" class="campoInfo" id="TextName" placeholder="Name">
-                <input type="email" class="campoInfo" id="TextEmail" placeholder="E-mail">
-                <br>
-                <input type="button" value="Register" class="buttonStyle" id="ButtonLogin">
-            </div>
-            
-            <table border="1" class="table">
-                <tr>
-                    <th>Name</th>
-                    <th colspan="2">E-mail</th>
-                </tr>
-                <tr>
-                    <td>Carlos</td>
-                    <td>CArlor@gmail.com</td>
-                    <td><button class="buttonStyle" id="BtnDelet">Escluir</button></td>
-                </tr>
-            </table>            
+        <div id="resu">
+            <div id="containerRegistration">
+                <h3>Register Customers</h3>
+                <div class="containerRegistrationInfo">
+                    <div class="TextValue">Name<input type="text" class="campoInfo" id="campoNameInfo"></div>
+                    <div class="TextValue">E-mail<input type="email" class="campoInfo" id="campoEmailInfo"></div>
+                    <br>
+                    <input type="button" value="Register" class="buttonStyle" id="ButtonLogin">
+                </div>
+            </div>            
         </div>
+        
 
     </div>
     <script src="./script.js"></script>

@@ -8,13 +8,13 @@ body{
     left: 35%;
     margin: 0;
     border-radius: 20px;
-    height: 380px;
-    width: 400px;
+    height: auto;
+    width: auto;
     border: 2px solid rgba(0, 0, 0, 0.281);
 }
 .CampoMenu{
     text-align: center;
-    margin-top: 10px;
+    margin: 10px;
 }
 .buttonStyle{
     border-radius: 30px;
@@ -28,15 +28,14 @@ body{
     background-color: rgb(31, 157, 207);
     
 }
-.containerRegistration{
+#containerRegistration{
     text-align: center;
-    border: 2px solid rgba(0, 0, 0, 0.281);
     border-radius: 30px;
-    height: 280px;
+    height: auto;
     margin: 30px ;
     background-color: rgb(6, 107, 114);
 }
-.containerRegistration h3{
+#containerRegistration h3{
     margin: 6px 0;
     color: rgb(167, 222, 253);
     font-size: 30px;
@@ -46,9 +45,9 @@ body{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-color: rgb(0, 140, 255);
+    border-color: #5eb7ff;
     margin: 5px;
-    border-radius: 30px 0;
+    border-radius: 0 30px 30px 0;
     text-align: center;
     height: 30px;
     color: antiquewhite;
@@ -61,6 +60,27 @@ body{
 }
 .table{
     background-color: rgb(50, 115, 189);
-    margin: 10px 28px;
+    margin: 1px 28px;
+    border: 1px solid rgb(29, 80, 138);
+    border-radius: 10px;
+
+}
+.TextValue{
+    color: rgb(118, 230, 230);
+}
+.buttonApagar{
     border: none;
+    background-color:rgb(0, 163, 136);
+    color: rgb(231, 239, 248);
+    border-radius: 10px;
+    margin: none;
+}
+.buttonApagar:hover{
+    background-color: rgb(31, 157, 207);
+    color: rgba(252, 229, 229, 0.842);
+}
+.table td,th {
+    border: 1px solid rgb(29, 80, 138);
+    border-radius: 5px ;
+
 }
