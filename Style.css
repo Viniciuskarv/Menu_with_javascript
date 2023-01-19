@@ -1,32 +1,43 @@
 body{
-    background-image:linear-gradient(100deg, rgb(0, 163, 136), rgb(0, 95, 158))
+    background-image:linear-gradient(100deg, rgb(0, 163, 136), rgb(0, 95, 158));
+}
+header {
+    background-image:linear-gradient(100deg,rgb(0, 95, 158) ,rgb(0, 163, 136));
+    position:absolute;
+    width: 100%;
+    top: 4%;
+    left: 0;
+    height: 65px;
+
 }
 #Container {
     position: absolute;
     background: rgba(0, 0, 0, 0.253);
-    top: 350px;
-    left: 35%;
-    margin: 0;
+    margin: none;
     border-radius: 20px;
     height: auto;
     width: auto;
     border: 2px solid rgba(0, 0, 0, 0.281);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .CampoMenu{
-    text-align: center;
-    margin: 10px;
+    text-align: right;
+    margin: 15px auto;
+    margin-right: 30px;
 }
 .buttonStyle{
     border-radius: 30px;
-    border: none;
-    background-color:rgb(0, 163, 136);
+    border: 1px solid rgba(2, 118, 126, 0.658);
+    background-color:rgb(0, 152, 163);
     color: rgb(231, 239, 248);
     width: 90px;
     height: 30px;
 }
 .buttonStyle:hover{
     background-color: rgb(31, 157, 207);
-    
+    color: rgb(255, 255, 255);
 }
 #containerRegistration{
     text-align: center;
@@ -36,7 +47,7 @@ body{
     background-color: rgb(6, 107, 114);
 }
 #containerRegistration h3{
-    margin: 6px 0;
+    margin: 6px 30px;
     color: rgb(167, 222, 253);
     font-size: 30px;
 }
@@ -82,5 +93,5 @@ body{
 .table td,th {
     border: 1px solid rgb(29, 80, 138);
     border-radius: 5px ;
-
+    margin: 10px;
 }
